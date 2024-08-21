@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome Website</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background-color: #8e24aa; /* Цвет заголовка */
+            color: white;
+            font-size: 32px;
+            font-weight: 900;
+            padding: 16px;
+            text-align: left;
+        }
+
+        .container {
+            display: flex;
+            flex: 1;
+            padding: 32px;
+            box-sizing: border-box;
+        }
+
+        .sidebar {
+            width: 300px;
+            background-color: #3b82f6; /* Цвет боковой панели */
+            padding: 16px;
+            box-sizing: border-box;
+            flex-shrink: 0;
+        }
+
+        .sidebar a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            font-size: 24px;
+            margin-bottom: 16px;
+        }
+
+        .content {
+            flex: 1;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 32px;
+            padding-left: 32px;
+            box-sizing: border-box;
+        }
+
+        .card {
+            background-color: #f9f9f9;
+            padding: 16px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            flex: 1 1 calc(33.333% - 32px); /* Для трех карточек в ряд */
+            box-sizing: border-box;
+            min-width: 250px; /* Минимальная ширина карточки */
+        }
+
+        footer {
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 16px;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+
+<header>MY AWESOME WEBSITE</header>
+
+<div class="container">
+    <div class="sidebar">
+        <a href="#">⭐️ - link one</a>
+        <a href="#">🙋🏾‍♂️ - link two</a>
+        <a href="#">🖊️ - link three</a>
+        <a href="#">👌 - link four</a>
+    </div>
+    <div class="content">
+        <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, eveniet?</div>
+        <div class="card">Lorem ipsum dolor sit amet, amet consectetur adipisicing elit.</div>
+        <div class="card">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</div>
+        <div class="card">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
+        <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+        <div class="card">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
+    </div>
+</div>
+
+<footer>
+    Footer content
+</footer>
+
+</body>
+</html>

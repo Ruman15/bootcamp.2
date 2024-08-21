@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: darkgray;
+}
+.block{
+    width: 800px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    display: flex;
+   border-radius: 10px;
+}
+
+.block-1{
+width: 50px;
+height: 50px;
+background-color: rgb(205, 218, 239);
+border-radius: 100px;
+text-align: center;
+font-size: 30px;
+padding: 5px;
+color: dodgerblue;
+margin-left: 10px;
+margin-top: 5px;
+}
+
+.block-2{
+    width: 500px;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: rgb(80, 80, 80);
+    font-family:"Montserrat", system-ui ;
+    margin-left: 100px;
+    font-size: 20px;
+    }
+
+    .block-3{
+        width: 30px;
+        height: 30px;
+        background-color: rgb(203, 203, 203);
+        border-radius: 100px;
+        margin-top: 5px;
+        margin-left: 8px;
+        text-align: center;
+        padding: 3px;
+        font-size: 20px;
+        color: dimgrey;
+        margin-left: 100px;
+      
+        }
+
+        .button-1{
+            width: 80px;
+            height: 30px;
+            background-color: rgb(52, 143, 255);
+            margin-top: 6px;
+            border-radius: 7px;
+            border: 0px;
+            text-align: center;
+            color: #fff;
+        }
+
+        .button-2{
+            width: 80px;
+            height: 30px;
+            background-color: #fff;
+            margin-top: 5px;
+           border-radius: 7px;
+           border:  solid 1px gray;
+           text-align: center;
+        }
